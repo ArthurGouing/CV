@@ -293,9 +293,7 @@
 }
 
 \renewcommand{\subsection}[1]{
-	{%
-		\Large\round{#1}%
-	}
+	{\Large\round{#1}}
 }
 \renewcommand{\section}[1]{%
 	\setlength\TotalSectionLength{\linewidth}% Set the total line width
@@ -324,13 +322,23 @@
 
 \newcommand{\twentyitem}[4]{%
   \color{myprimarycolordark}
-	#1&\parbox[t]{0.83\textwidth}{%
-  	\color{myprimarycolordark}
+	\begin{minipage}[t]{0.20\linewidth}%
+		#1
+	\end{minipage}
+	\begin{minipage}[t]{0.80\linewidth}%
 		\textbf{#2}%
 		\hfill%
 		{\raggedleft \small \emph{#3} \par}%
-		#4\vspace{\parsep}%
-	} \\
+		#4 \vspace{\parsep}%
+	\end{minipage} 
+	\\
+	% #1&\parbox[t]{0.83\textwidth}{%
+  % 	\color{myprimarycolordark}
+	% 	\textbf{#2}%
+	% 	\hfill%
+	% 	{\raggedleft \small \emph{#3} \par}%
+	% 	#4\vspace{\parsep}%
+	% } \\
 }
 
 %----------------------------------------------------------------------------------------
@@ -347,9 +355,22 @@
 }
 
 \newcommand{\twentyitemshort}[2]{%
-	\textbf{#1}&\parbox[t]{0.75\textwidth}{%
-		#2%
-	} \\ \smallskip
+  \color{myprimarycolordark}
+	\begin{minipage}[t]{0.20\linewidth}%
+		\textbf{#1}
+	\end{minipage}
+	\begin{minipage}[t]{0.80\linewidth}%
+		#2 \vspace{\parsep}%
+		% \textbf{#2}%
+		% \hfill%
+		% {\raggedleft \small \emph{#3} \par}%
+		% #4 \vspace{\parsep}%
+	\end{minipage} 
+	\\
+	% \textbf{\color{myprimarycolordark}#1}&\parbox[t]{0.75\textwidth}{%
+  % \color{myprimarycolordark}
+	% 	#2%
+	% } \\ \smallskip
 }
 
 %----------------------------------------------------------------------------------------

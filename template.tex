@@ -92,7 +92,8 @@
 %	 ABOUT ME
 %----------------------------------------------------------------------------------------
 
-\aboutme{Engineering student  in computer simulations, with specialization in computer graphics. Proficient in problem-solving and collaborative teamwork. Seeking job opportunities upon graduation in September 2023.}
+\aboutme{}
+% \aboutme{Engineering student  in computer simulations, with specialization in computer graphics. Proficient in problem-solving and collaborative teamwork. Seeking job opportunities upon graduation in September 2023.}
 \makemytitle % Print the title
 
 %----------------------------------------------------------------------------------------
@@ -100,13 +101,13 @@
 %----------------------------------------------------------------------------------------
 
 \section{Education}
-
+\\
 \begin{twenty} % Environment for a list with descriptions
 	%\twentyitem{date}{Title {\normalfont normal text}}{Place}{Description}
 	\twentyitem{2022-2023}{Specialisation Semester at Graduate School of Grenoble}{High Performance Computing}
 	{Followed computer graphics specialization with a focus on coursework covering HPC, GPU computing, rendering, animation and mathematical optimization. }
 	\twentyitem{2020-2023}{M.Sc at Graduate School of Bordeaux}{Mathematics and Mechanics}
-	{Learning to develop solid and fluid numerical simulation to solve physical real physical problems.}
+	{Learning to develop numerical simulation to solve solid and fluid mechanics real physical problems.}
 	\twentyitem{2018-2020}{C.P.G.E at Lycée Masséna}{Physics and Engineering Science}
 	{A 2-year intensive curriculum in mathematics and physics, preparing students for entrance examinations to engineering schools in France.}
 	\twentyitem{2015-2018}{High school at Lycée Masséna}{Science}{Specializing in mathematics and physics.}
@@ -118,15 +119,17 @@
 %----------------------------------------------------------------------------------------
 
 \section{Experience}
-
+\\
 \begin{twenty} % Environment for a list with descriptions
 	%\twentyitem{date}{Title}{Place}{Description}
-	\twentyitem{2024}{HPC Engineer}{INRIA Shopia-Antipolis}
-	{The first Alice on film was over a hundred years ago.}
-	\twentyitem{2023}{HPC Engineer Intern}{CERFACS}
-	{This film stars Ethel griffies and Charlotte Henry. It was a box office flop when it was released.}
-	\twentyitem{2022}{Engineer Intern}{I2M Bordeaux}
-	{Walt Disney brings Lewis Carroll's fantasy story to life in this well done animated classic. Even though many elements from the book were dropped, such as the duchess with the baby pig and mock turtle, this version is without a doubt the most famous Alice adaption made.}
+	\twentyitem{2024 \\ \emph{(1 year)}}{R\&D Engineer HPC developer}{INRIA Shopia-Antipolis}
+	{Porting DIOGENeS, a HPC nanophotonics code, on GPU using OpenACC.
+	Performed numerical design optimisation of Meta-surface.}
+	% Leading workshop and learning ressource around DIIOGENeS software suite}
+	\twentyitem{2023 \\ \emph{(6 months)}}{HPC Engineer Intern}{CERFACS}
+	{Porting a fluid mechanics code on GPU using OpenACC and OpenMP. Developing coding tools for benchmarking and code autocompletion.}
+	\twentyitem{2022 \\ \emph{(4 months)}}{Engineer Intern}{I2M Bordeaux}
+	{Developed a Python script to automate file testing for the non-regression of Notus, a massively parallel code for Computation Fluid Dynamics.}
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
 
@@ -135,35 +138,52 @@
 %----------------------------------------------------------------------------------------
 
 \section{Project}
-
-\subsection{School Project}
-
-\begin{twentyshort} % Environment for a short list with no descriptions
-	\twentyitemshort{Ray Tracer}{All-Time Best Fantasy Novel.}
-	\twentyitemshort{Motion Capture App}{All-Time Best Fantasy Novel before 1990.}
-	\twentyitemshort{Unity Project}{All-Time Best Fantasy Novel before 1990.}
-	\twentyitemshort{Pyrolysis Simulation}{All-Time Best Fantasy Novel.}
-	\twentyitemshort{Finger Biomechanics Simulation}{All-Time Best Fantasy Novel.}
-	\twentyitemshort{Ankle Biomechanics Model}{All-Time Best Fantasy Novel.}
-	%\twentyitemshort{<dates>}{<title/description>}
-\end{twentyshort}
-
-\cvnewpage
-
+%--- Personal Project -------------------------------------------------------------------
+\\
 \subsection{Personal Project}
 
 \begin{twentyshort} % Environment for a short list with no descriptions
 	\twentyitemshort{GPU Cloth:}{Blender Add-on (\href{https://x.com/Arthos222}{Blender extension page}) which uses Taichi python library to develope portable GPU code for simulating soft Body in real time, faster than Blender Simulation System.}
 	\twentyitemshort{Simuscle:}{Proof of concept product (\href{https://simuscle.vercel.app/}{with website}) linked with Blender add-on to run muscle simulation. Simuscle is developped in C++, using OpenGL and DearImGui.}
 	%\twentyitemshort{<dates>}{<title/description>}
-	\twentyitemshort{Peleiz \& Hanisa:}{1 Week-end Game Jam Creation of small game in a team of 8. Mainly working on the graphics and animations.}
+	% \twentyitemshort{Peleiz \& Hanisa:}{1 Week-end Game Jam Creation of small game in a team of 8. Mainly working on the graphics and animations. (\href{https://clemetayer.itch.io/peleizhanisa}{link})}
 \end{twentyshort}
+
+%--- School Project ---------------------------------------------------------------------
+
+\subsection{School Project}
+
+Developed Various type of Code, Simulator and Application : 
+\\
+\setlength\tabcolsep{0pt}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}} lll }
+\textbf{Ray tracer}, & \textbf{Motion capture app}, & \textbf{Rigid body simulator}, \\
+\textbf{Pyrolysis simulation}, & \textbf{Finger biomechanics}, & \textbf{Ankle model code}, \\
+\textbf{Linear algebra solveur library} & &
+\end{tabular*}
+\\ \smallskip
+Detail information for each project can be found on my \href{\cvgithub}{Github} page. 
+
+\cvnewpage % Start a new page
+
+% \subsection{School Project}
+% 
+% \begin{twentyshort} % Environment for a short list with no descriptions
+% 	\twentyitemshort{Ray Tracer}{Developed Qt applications for raytracing rendering and motion capture animation using OpenGL and C++. }
+% 	\twentyitemshort{Motion Capture App}{ Developed Qt application for motion capture 
+% animation visualization using OpenGL and C++.}
+% 	\twentyitemshort{Rigid Body Simulator}{ Developed real-time physics engine for rigid
+% body collision, using convex analysis framework.}
+% 	\twentyitemshort{Pyrolysis Simulation}{Simulated the pyrolysis effect of a thermic shield during atmospheric entry. Solved coupled heat equation using adaptative mesh methods in finite volume using C++. }
+% 	\twentyitemshort{Finger Biomechanics Simulation}{Biomechanics modelling of climber’s finger. Computing constraints applied on tendons with Abaqus, a mechanical calculation software. }
+% 	\twentyitemshort{Ankle Biomechanics Model}{Developed a simulation of ankle articulation during the walk cycle by utilizing existing models and testing them in Fortran90.}
+% 	%\twentyitemshort{<dates>}{<title/description>}
+% \end{twentyshort}
 
 %----------------------------------------------------------------------------------------
 %	 SECOND PAGE EXAMPLE
 %----------------------------------------------------------------------------------------
 
-\cvnewpage % Start a new page
 
 \section{Other information}
 
