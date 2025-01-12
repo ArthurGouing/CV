@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1736522454.16373 "c:/Users/picol/Documents/Document Inria 2024-/Diapo Latex/CV/template.tex" "template.pdf" "template" 1736522455.20351 0
+["pdflatex"] 1736530770.21898 "c:/Users/picol/Documents/Document Inria 2024-/Diapo Latex/CV/template.tex" "template.pdf" "template" 1736530772.47862 0
   "C:/Users/picol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1736438900 88245 abce01a2cc6798d33c8239df7dffdc49 ""
   "C:/Users/picol/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ectt1000.pk" 1736416066 20028 784a5e77486ad5d1d81dc757e13318f1 ""
   "C:/Users/picol/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1734283250 11986914 18e9bf7ed0b8b96e8918cb998aba8c4c ""
@@ -168,11 +168,11 @@
   "C:/Users/picol/AppData/Local/Programs/MiKTeX/tex/latex/textpos/textpos.sty" 1658745447 12842 35403bda336a71a37a5edc37b78e3ec3 ""
   "C:/Users/picol/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/picol/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/picol/Documents/Document Inria 2024-/Diapo Latex/CV/template.tex" 1736522453 10696 dbacf161f6f0c12034c98dbe451a1087 ""
+  "c:/Users/picol/Documents/Document Inria 2024-/Diapo Latex/CV/template.tex" 1736530769 10697 5f54d1e6b0b7a6760ad2a78c1e83edff ""
   "profile_zoom.jpg" 1736427983 70613 f235c554ee4907bdaa427da4e92ae6f9 ""
-  "template.aux" 1736522454 251 204e9586bce168ad1719cbc3bba9726e "pdflatex"
-  "template.out" 1736522454 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "template.tex" 1736522453 10696 dbacf161f6f0c12034c98dbe451a1087 ""
+  "template.aux" 1736530772 251 204e9586bce168ad1719cbc3bba9726e "pdflatex"
+  "template.out" 1736530771 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "template.tex" 1736530769 10697 5f54d1e6b0b7a6760ad2a78c1e83edff ""
   "twentysecondcv.cls" 1736522367 13254 7ad8ca5bc992d32b1e12b8c1dc939c9c ""
   (generated)
   "template.aux"
