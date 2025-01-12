@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.15)  10 JAN 2025 18:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.15)  12 JAN 2025 15:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/picol/Documents/Document Inria 2024-/Diapo Latex/CV/template.tex"
-(c:/Users/picol/Documents/Document Inria 2024-/Diapo Latex/CV/template.tex
+**c:/Users/picol/Documents/CV_latex/template_english/template.tex
+(c:/Users/picol/Documents/CV_latex/template_english/template.tex
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
 (twentysecondcv.cls
@@ -442,7 +442,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 ) (C:\Users\picol\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 43.
+Package hyperref Info: Option `colorlinks' set `true' on input line 46.
 \imagewidth=\skip66
 \imagescale=\skip67
 \TotalSectionLength=\skip68
@@ -467,24 +467,24 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
  (C:\Users\picol\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (template.aux)
 \openout1 = `template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
 \big@size=\dimen269
  (C:\Users\picol\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -505,7 +505,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\picol\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 58.
+Package hyperref Info: Link coloring ON on input line 77.
  (template.out) (template.out)
 \@outlinefile=\write4
 \openout4 = `template.out'.
@@ -548,126 +548,137 @@ Package hyperref Info: Link coloring ON on input line 58.
 <profile_zoom.jpg, id=6, 542.77782pt x 477.28313pt>
 File: profile_zoom.jpg Graphic file (type jpg)
 <use profile_zoom.jpg>
-Package pdftex.def Info: profile_zoom.jpg  used on input line 89.
+Package pdftex.def Info: profile_zoom.jpg  used on input line 115.
 (pdftex.def)             Requested size: 142.26378pt x 125.0957pt.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 89.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 115.
 (C:\Users\picol\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 89.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 115.
  (C:\Users\picol\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 89.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 115.
  (C:\Users\picol\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 89.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 115.
  (C:\Users\picol\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 89.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 115.
  (C:\Users\picol\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 89.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 89.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 115.
  (C:\Users\picol\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomefree2.fd)
-Overfull \hbox (6.98466pt too wide) in paragraph at lines 89--89
+Overfull \hbox (6.98466pt too wide) in paragraph at lines 115--115
 [][]| 
  []
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 89.
+LaTeX Font Info:    Trying to load font information for U+mvs on input line 115.
+(C:\Users\picol\AppData\Local\Programs\MiKTeX\tex/latex/marvosym\umvs.fd)
+Overfull \hbox (4.3538pt too wide) in paragraph at lines 115--115
+[][]| 
+ []
+
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 115.
 (C:\Users\picol\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomefree1.fd)
-Overfull \hbox (6.95732pt too wide) in paragraph at lines 89--89
+Overfull \hbox (6.95732pt too wide) in paragraph at lines 115--115
 [][]| 
  []
 
 
-Overfull \hbox (9.3792pt too wide) in paragraph at lines 89--89
+Overfull \hbox (9.3792pt too wide) in paragraph at lines 115--115
 [][]| 
  []
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 89.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 115.
 (C:\Users\picol\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <17.28> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 89.
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on input line 89.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 115.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on input line 115.
  (C:\Users\picol\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomebrands1.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <17.28> not available
-(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 89.
+(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead on input line 115.
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--89
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 
  []
 
 
-Overfull \hbox (2.5pt too wide) in alignment at lines 105--115
+Overfull \hbox (2.5pt too wide) in alignment at lines 125--135
 [] []
  []
 
 
-Overfull \hbox (8.16171pt too wide) in paragraph at lines 103--116
+Overfull \hbox (8.16171pt too wide) in paragraph at lines 123--136
 [][] \T1/ptm/b/n/20.74 Ed-u-ca-tion [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--116
+Underfull \hbox (badness 10000) in paragraph at lines 123--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--116
+Underfull \hbox (badness 10000) in paragraph at lines 123--136
 
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 131--131
-[]\T1/ptm/m/n/10 Porting a fluid me-chan-ics code on GPU us-ing Ope-nACC and
+Underfull \hbox (badness 1394) in paragraph at lines 151--151
+[]\T1/ptm/m/n/10 Ported a fluid me-chan-ics code on GPU us-ing Ope-nACC and
  []
 
 
-Overfull \hbox (2.5pt too wide) in alignment at lines 124--135
+Overfull \hbox (2.5pt too wide) in alignment at lines 144--155
 [] []
  []
 
 
-Overfull \hbox (7.0001pt too wide) in paragraph at lines 122--136
+Overfull \hbox (7.0001pt too wide) in paragraph at lines 142--156
 [][] \T1/ptm/b/n/20.74 Ex-pe-ri-ence [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--136
+Underfull \hbox (badness 10000) in paragraph at lines 142--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--136
+Underfull \hbox (badness 10000) in paragraph at lines 142--156
 
  []
 
 
-Overfull \hbox (6.56544pt too wide) in paragraph at lines 141--145
+Overfull \hbox (6.56544pt too wide) in paragraph at lines 161--165
 [][] \T1/ptm/b/n/20.74 Project [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--145
+Underfull \hbox (badness 10000) in paragraph at lines 161--165
 
  []
 
 
-Overfull \hbox (2.5pt too wide) in alignment at lines 146--151
+Overfull \hbox (2.0306pt too wide) in paragraph at lines 169--169
+[]\T1/ptm/b/n/10 Peleiz & Hanisa: 
+ []
+
+
+Overfull \hbox (2.5pt too wide) in alignment at lines 166--171
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--152
+Underfull \hbox (badness 10000) in paragraph at lines 166--172
 
  []
 
@@ -676,63 +687,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--152
 [1
 
 {C:/Users/picol/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/picol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/picol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/Users/picol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Users/picol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{C:/Users/picol/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands1.enc} <./profile_zoom.jpg>]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: letterpaper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(216.2411pt, 341.14839pt, 56.9055pt)
-* v-part:(T,H,B)=(8.5359pt, 777.89818pt, 8.5359pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=341.14839pt
-* \textheight=777.89818pt
-* \oddsidemargin=143.97112pt
-* \evensidemargin=143.97112pt
-* \topmargin=-63.73409pt
-* \headheight=0.0pt
-* \headsep=0.0pt
-* \topskip=10.0pt
-* \footskip=0.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
-* \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-Overfull \hbox (13.2847pt too wide) in paragraph at lines 189--190
-[][] \T1/ptm/b/n/20.74 Other in-for-ma-tion [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
-
- []
-
-
-Overfull \hbox (8.10016pt too wide) in paragraph at lines 195--196
-[][] \T1/ptm/b/n/20.74 Color Palette [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
-
- []
-
-
-
-[2
-
-] (template.aux)
+[2] (template.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
@@ -741,17 +697,17 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 23893 strings out of 473682
- 463096 string characters out of 5719215
- 826489 words of memory out of 5000000
- 46584 multiletter control sequences out of 15000+600000
- 607717 words of font info for 83 fonts, out of 8000000 for 9000
+ 23818 strings out of 473682
+ 460607 string characters out of 5719215
+ 828746 words of memory out of 5000000
+ 46507 multiletter control sequences out of 15000+600000
+ 611963 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,15n,121p,792b,878s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\picol\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk><C:/Users/picol/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/picol/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/picol/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/picol/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/picol/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on template.pdf (2 pages, 179591 bytes).
+ 117i,16n,121p,763b,904s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/picol/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/picol/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/picol/AppData/Local/Programs/MiKTeX/fonts/type1/public/marvosym/marvosym.pfb><C:/Users/picol/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/picol/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/picol/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on template.pdf (2 pages, 183021 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 75 PDF objects out of 1000 (max. 8388607)
  3 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

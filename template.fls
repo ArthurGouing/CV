@@ -1,6 +1,6 @@
-PWD c:\Users\picol\Documents\Document Inria 2024-\Diapo Latex\CV
+PWD c:\Users\picol\Documents\CV_latex\template_english
 INPUT C:\Users\picol\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\picol\Documents\Document Inria 2024-\Diapo Latex\CV\template.tex
+INPUT c:\Users\picol\Documents\CV_latex\template_english\template.tex
 OUTPUT template.log
 INPUT .\twentysecondcv.cls
 INPUT twentysecondcv.cls
@@ -296,11 +296,16 @@ INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome5\ufonta
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome5\ufontawesomefree2.fd
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome5\ufontawesomefree2.fd
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fontawesome5\fa5free2solid.tfm
+INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
+INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
+INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\tex\latex\marvosym\umvs.fd
+INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\tex\latex\marvosym\umvs.fd
+INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\tex\latex\marvosym\umvs.fd
+INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\marvosym\umvs.tfm
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome5\ufontawesomefree1.fd
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome5\ufontawesomefree1.fd
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome5\ufontawesomefree1.fd
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\tfm\public\fontawesome5\fa5free1solid.tfm
-INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc8t.tfm
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome5\ufontawesomebrands0.fd
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\tex\latex\fontawesome5\ufontawesomebrands0.fd
@@ -324,10 +329,10 @@ INPUT C:\Users\picol\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
-INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
+INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
@@ -342,16 +347,15 @@ INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5free1.enc
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5brands0.enc
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\fontawesome5\fa5brands1.enc
-INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1000.tfm
 INPUT template.aux
 INPUT .\template.out
 INPUT .\template.out
-INPUT C:\Users\picol\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk
-INPUT C:\Users\picol\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Brands-Regular.pfb
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Brands-Regular.pfb
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Free-Solid.pfb
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Free-Solid.pfb
+INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\type1\public\marvosym\marvosym.pfb
+INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\type1\public\marvosym\marvosym.pfb
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\picol\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb

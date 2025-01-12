@@ -40,7 +40,11 @@
 }
 
 % URL color parameters:
-\hypersetup{colorlinks, urlcolor={mysecondarycolordark}}
+
+\definecolor{contrast}{RGB}{146, 34, 53}
+
+\hypersetup{colorlinks, urlcolor={mysecondarycolordark!80!black}}
+\hypersetup{urlcolor={contrast}}
 
 
 %----------------------------------------------------------------------------------------
@@ -205,12 +209,12 @@
 
 		\renewcommand{\arraystretch}{2.}
 		\begin{tabular}{p{0.5cm} @{\hskip 0.5cm}p{5cm}}
-			% Date of birth
-			\ifthenelse{\equal{\cvdate}{}}{}{\textsc{\Large\icon{\Info}} & \cvdate\\}
 			% Place
 			\ifthenelse{\equal{\cvaddress}{}}{}{\Large\icon{\faIcon{map-marker-alt}} & \cvaddress\\}
+			% Date of birth
+			\ifthenelse{\equal{\cvdate}{}}{}{\textsc{\Large\icon{\Info}} & \cvdate\\}
 			% Email (icon could be faIcon{at})
-			\ifthenelse{\equal{\cvmail}{}}{}{\Large\icon{\faIcon{envelope}} & \href{mailto:\cvmail}{\cvmail}\\}
+			\ifthenelse{\equal{\cvmail}{}}{}{\Large\icon{\faIcon{envelope}} & {\hypersetup{urlcolor={mysecondarycolordark}}\href{mailto:\cvmail}{\cvmail}}\\}
 			% Phone number
 			\ifthenelse{\equal{\cvnumberphone}{}}{}{\Large\icon{\faIcon{phone-alt}} & \cvnumberphone\\}
 			% Web Site

@@ -4,7 +4,7 @@
 % Version 1.0 (8/1/25)
 %
 % This template has been downloaded from:
-% https://github.com/ArthurGouing
+% https://github.com/ArthurGouing/CV
 %
 % Original author:
 % Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
@@ -36,18 +36,37 @@
 \definecolor{mysecondarycolorlight}{RGB}{250, 250, 250} % For main background
 
 %----------------------------------------------------------------------------------------
-%	 PERSONAL INFORMATION
+%	 CV TITLE
 %----------------------------------------------------------------------------------------
 
 % If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
 
 \profilepic{profile_zoom.jpg}                                          % Profile picture
-\cvname{Arthur Gouinguenet (22)}                                       % Your name
-\cvjobtitle{Engineer in High Performance Computing}                    % Job title/career
-\cvdate{}                                                              % Date of birth
+\cvname{Arthur Gouinguenet (24)}                                       % Your name
+\cvjobtitle{
+  Engineer in High Performance Computing
+%	Engineer in Numerical Simmulation
+% Engineer in Image and Mathematical Modelling
+% Engineer in Mathematics and Mechanics
+}                                                                      % Job title/career
+% \aboutme{}
+\aboutme{
+	R\&D Engineer specializing in computer graphics simulations. Proficient in problem-solving and collaborative teamwork. Seeking full-time employment opportunities starting June 2025.
+}
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\cvdate{22 Decembre 2000}                                              % Date of birth
 \cvaddress{Nice, France}                                               % Short address/location, use \newline if more than 1 line is required
-\cvnumberphone{+33 6.51.00.69.02}                                      % Phone number
 \cvmail{arthur.gouinguenet@free.fr}                                    % Email address
+\cvnumberphone{+33 6.51.00.69.02}                                      % Phone number
+
+%----------------------------------------------------------------------------------------
+%	 WEBSITE LINKS
+%----------------------------------------------------------------------------------------
+
 \cvsite{}                                  % Personal website
 \cvtwitter{https://x.com/Arthos222}                                    % Twitter
 \cvlinkedin{https://www.linkedin.com/in/arthur-gouinguenet-b94119252/} % Linkedin
@@ -56,44 +75,45 @@
 %----------------------------------------------------------------------------------------
 
 \begin{document}
+\color{myprimarycolordark}
 
 %----------------------------------------------------------------------------------------
 % COMPUTER SKILLS
 %----------------------------------------------------------------------------------------
 
-\computerskills{{Python},{C++},{Fortran},
-								{OpenGL / Cuda / OpenACC},{MPI / OpenMP},
-								{Blender}, {Abaqus}, {Unity}, {Latex / Office Suite}}
+\computerskills{{Python},{C++},
+  {Fortran}, {MPI / OpenMP},
+  {OpenGL / Cuda / OpenACC}, 
+  {Abaqus / AVBP / DIOGENeS}, 
+  {Blender}, 
+  {Unity}, 
+  {Latex / Office Suite}
+}
 
 %----------------------------------------------------------------------------------------
 % LANGUAGE SKILLS
 %----------------------------------------------------------------------------------------
 
-\languageskills{{French: native speaker},
-							 {English: B2 (Toeic 850)},
-							 {Italian: A2},
-							 {Good knowledge of LPC (it’s the french cued speech, permitting to communicate with deaf persons)}
-							}
+\languageskills{{French: native speaker}, {English: B2 (Toeic 850)}, {Italian: A2}, {Good knowledge of LPC (it’s the french cued speech, permitting to communicate with deaf persons)}
+}
 
 %----------------------------------------------------------------------------------------
 % INTEREST
 %----------------------------------------------------------------------------------------
 
-\interest{{Tricking and gymnastics},
-					{Digital sculpting and modelling},
-					{Piano}
-				 }
+\interest{
+	{Tricking and gymnastics},
+	{Digital sculpting and modelling},
+	{Piano},
+	{Hiking},
+	{Apnea},
+	{Motorbike}
+}
 
 %----------------------------------------------------------------------------------------
 
 \makeprofile % Print the sidebar
 
-%----------------------------------------------------------------------------------------
-%	 ABOUT ME
-%----------------------------------------------------------------------------------------
-
-\aboutme{}
-% \aboutme{Engineering student  in computer simulations, with specialization in computer graphics. Proficient in problem-solving and collaborative teamwork. Seeking job opportunities upon graduation in September 2023.}
 \makemytitle % Print the title
 
 %----------------------------------------------------------------------------------------
@@ -105,7 +125,7 @@
 \begin{twenty} % Environment for a list with descriptions
 	%\twentyitem{date}{Title {\normalfont normal text}}{Place}{Description}
 	\twentyitem{2022-2023}{Specialisation Semester at Graduate School of Grenoble}{High Performance Computing}
-	{Followed computer graphics specialization with a focus on coursework covering HPC, GPU computing, rendering, animation and mathematical optimization. }
+	{Focused on computer graphics, with coursework covering HPC, GPU computing, rendering, animation, and mathematical optimization.}
 	\twentyitem{2020-2023}{M.Sc at Graduate School of Bordeaux}{Mathematics and Mechanics}
 	{Learning to develop numerical simulation to solve solid and fluid mechanics real physical problems.}
 	\twentyitem{2018-2020}{C.P.G.E at Lycée Masséna}{Physics and Engineering Science}
@@ -124,13 +144,13 @@
 \begin{twenty} % Environment for a list with descriptions
 	%\twentyitem{date}{Title}{Place}{Description}
 	\twentyitem{2024 \\ \emph{(1 year)}}{R\&D Engineer HPC developer}{INRIA Shopia-Antipolis}
-	{Porting DIOGENeS, a HPC nanophotonics code, on GPU using OpenACC.
+	{Ported DIOGENeS, a HPC nanophotonics code, on GPU using OpenACC.
 	Performed numerical design optimisation of Meta-surface.}
 	% Leading workshop and learning ressource around DIIOGENeS software suite}
 	\twentyitem{2023 \\ \emph{(6 months)}}{HPC Engineer Intern}{CERFACS}
-	{Porting a fluid mechanics code on GPU using OpenACC and OpenMP. Developing coding tools for benchmarking and code autocompletion.}
+	{Ported a fluid mechanics code on GPU using OpenACC and OpenMP. Developed coding tools for benchmarking and code autocompletion.}
 	\twentyitem{2022 \\ \emph{(4 months)}}{Engineer Intern}{I2M Bordeaux}
-	{Developed a Python script to automate file testing for the non-regression of Notus, a massively parallel code for Computation Fluid Dynamics.}
+	{Automated testing for the non-regression of Notus, a massively parallel code for Computational Fluid Dynamics, using Python scripts.}
 	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
 \end{twenty}
 
@@ -144,30 +164,49 @@
 \subsection{Personal Project}
 
 \begin{twentyshort} % Environment for a short list with no descriptions
-	\twentyitemshort{GPU Cloth:}{Blender Add-on (\href{https://x.com/Arthos222}{Blender extension page}) which uses Taichi python library to develope portable GPU code for simulating soft Body in real time, faster than Blender Simulation System.}
-	\twentyitemshort{Simuscle:}{Proof of concept product (\href{https://simuscle.vercel.app/}{with website}) linked with Blender add-on to run muscle simulation. Simuscle is developped in C++, using OpenGL and DearImGui.}
+	\twentyitemshort{GPU Cloth:}{Blender Add-on (\href{https://x.com/Arthos222}{Blender extension page}) which uses Taichi python library to develop portable GPU code for simulating soft Body in real time, achieving faster performance than Blender's simulation system.}
+	\twentyitemshort{Simuscle:}{Proof-of-concept product (\href{https://simuscle.vercel.app/}{with website}) linked with Blender add-on for muscle simulation. Simuscle is developed in C++, using OpenGL and DearImGui.}
+	\twentyitemshort{Peleiz~\&~Hanisa:}{1-weekend Game Jam creation of a small game in a team of 8, primarily focusing on graphics and animations (\href{https://clemetayer.itch.io/peleizhanisa}{link}).}
 	%\twentyitemshort{<dates>}{<title/description>}
-	% \twentyitemshort{Peleiz \& Hanisa:}{1 Week-end Game Jam Creation of small game in a team of 8. Mainly working on the graphics and animations. (\href{https://clemetayer.itch.io/peleizhanisa}{link})}
 \end{twentyshort}
 
 %--- School Project ---------------------------------------------------------------------
 
 \subsection{School Project}
 
-Developed Various type of Code, Simulator and Application : 
-\\
+% \hypersetup{urlcolor={black}}
 \setlength\tabcolsep{0pt}
+
+Designed and implemented various codes and simulators, including:
+\\
 \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}} lll }
-\textbf{Ray tracer}, & \textbf{Motion capture app}, & \textbf{Rigid body simulator}, \\
-\textbf{Pyrolysis simulation}, & \textbf{Finger biomechanics}, & \textbf{Ankle model code}, \\
-\textbf{Linear algebra solveur library} & &
+\href{https://github.com/ArthurGouing/Shader}  {\textbf{Ray tracer}}, & 
+\href{https://github.com/ArthurGouing/SIA} {\textbf{Motion capture app}}, & 
+\href{https://github.com/ArthurGouing/Meca_3D}{\textbf{Rigid body simulator}}, \\
+\href{https://drive.google.com/file/d/1TlY18PySk2Y6PfQx1AX2zp2NOW02hIMp/view?usp=drive_link} {\textbf{Wavelet Galerkin solver}}, &
+\href{https://drive.google.com/file/d/17Ait0Ps1EPSk32GV3WXzE-T5U_s8E46L/view?usp=drive_link} {\textbf{Pyrolysis simulation}}, & 
+\href{https://drive.google.com/file/d/1kUdH7PGXiABPJj4z1XhYOHIH0S54tEfc/view?usp=drive_link} {\textbf{Finger biomechanics}}, \\
+\href{https://drive.google.com/file/d/1Hen1em0Q5E2-icFI5EIw6yr95lXx_FuE/view?usp=drive_link} {\textbf{Ankle model code}}, &
+\href{https://drive.google.com/file/d/1OPkFyc6Cv98JciyZxQHiEn_65DEc-XBS/view?usp=drive_link} {\textbf{Linear algebra solveur library}} & 
 \end{tabular*}
-\\ \smallskip
-Detail information for each project can be found on my \href{\cvgithub}{Github} page. 
+% \\ \smallskip
+% \hypersetup{urlcolor={mysecondarycolordark}}
+% Detail information for each project can be found on my \href{\cvgithub}{github} page. 
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
 
-\cvnewpage % Start a new page
-
-% \subsection{School Project}
+% \cvnewpage % Start a new page
+%
+% \section{Detailed Project}
+% \\
+% \subsection{Review}
+% \\
+% Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+% 
+% \bigskip
+% 
+% \subsection{Project}
 % 
 % \begin{twentyshort} % Environment for a short list with no descriptions
 % 	\twentyitemshort{Ray Tracer}{Developed Qt applications for raytracing rendering and motion capture animation using OpenGL and C++. }
@@ -180,21 +219,9 @@ Detail information for each project can be found on my \href{\cvgithub}{Github} 
 % 	\twentyitemshort{Ankle Biomechanics Model}{Developed a simulation of ankle articulation during the walk cycle by utilizing existing models and testing them in Fortran90.}
 % 	%\twentyitemshort{<dates>}{<title/description>}
 % \end{twentyshort}
-
+% 
+% 
+% \section{Color Palette}
+% \drawpalette
 %----------------------------------------------------------------------------------------
-%	 SECOND PAGE EXAMPLE
-%----------------------------------------------------------------------------------------
-
-
-\section{Other information}
-
-\subsection{Review}
-
-Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
-
-\section{Color Palette}
-\drawpalette
-
-%----------------------------------------------------------------------------------------
-
 \end{document} 
